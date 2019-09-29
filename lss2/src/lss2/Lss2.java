@@ -14,15 +14,20 @@ public class Lss2 {
 //            System.out.print(i + ", ");
 //        }
 ////nhap vao 1 so va tim cac uoc va so luong uoc cua so do
+
         System.out.print("nhap gia tri cua x:");
         int x = sc.nextInt();
         int count = 0;
+        for (int a = 0; a < 10; a++) {
+            
+        
         System.out.print("cac uoc cua x la: ");
-        for (int a = 1; a <= x; a++) {
-            if (x % a == 0) {
-                System.out.println(a + ", ");
+        for (int b = 1; b <= a; b++) {
+            if (a % b == 0) {
+                System.out.println(b + ", ");
                 count++;
             }
+        }
         }
         System.out.println("so luong cac uoc la:" + count);
         if (count == 2) {
