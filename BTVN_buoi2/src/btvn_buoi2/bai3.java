@@ -16,7 +16,7 @@ public class bai3 {
         for (int i = 0; i < 5; i++) {
             System.out.print(arr[i] + ", ");
         }
-        int temp = arr[0];
+        int temp = 0;
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] < arr[j]) {
@@ -27,9 +27,9 @@ public class bai3 {
                 }
             }
         }
-        System.out.print("day so tang dan la: ");
+        System.out.print("day so giam dan la: ");
         for (int i = 0; i < 5; i++) {
-            System.out.print(arr[i] + ", ");
+            System.out.print(arr[i] + "; ");
         }
     }
 }
